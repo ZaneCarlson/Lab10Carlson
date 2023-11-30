@@ -55,11 +55,11 @@ public class testSelectionSort {
         arr[4] = -2;
         
         int[] Sortedarr = new int[5];
-        Sortedarr[0] = -2;
-        Sortedarr[1] = -7;
+        Sortedarr[0] = -10;
+        Sortedarr[1] = -9;
         Sortedarr[2] = -8;
-        Sortedarr[3] = -9;
-        Sortedarr[4] = -10;
+        Sortedarr[3] = -7;
+        Sortedarr[4] = -2;
         
         SelectionSort temp1 = new SelectionSort();
         temp1.basicSelectionSort(arr);
